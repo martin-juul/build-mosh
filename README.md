@@ -1,5 +1,5 @@
 # build-mosh
-Wrapper to compile Mosh for iOS. This is used to compile a library packaging Mosh to be used in [Blink](http://github.com/blinksh/blink). Please do not use it to compile mosh-client or mosh-server versions. Refer to the original [Mosh](https://github.com/mobile-shell/mosh) for that.
+Wrapper to compile Mosh for iOS. This is used to compile a library packaging Mosh to be used in [Blink](http://github.com/martin-juul/blink). Please do not use it to compile mosh-client or mosh-server versions. Refer to the original [Mosh](https://github.com/mobile-shell/mosh) for that.
 
 ## Requirements
 - XCode 7
@@ -8,7 +8,7 @@ Wrapper to compile Mosh for iOS. This is used to compile a library packaging Mos
 
 ## Building
 ```bash
-git clone --recursive https://github.com/blinksh/build-mosh.git && cd build-mosh
+git clone --recursive https://github.com/martin-juul/build-mosh.git && cd build-mosh
 ./build-all.sh
 ```
 
